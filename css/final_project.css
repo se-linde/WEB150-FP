@@ -1,0 +1,28 @@
+html {
+
+background-color: #79a6d2;      
+
+}
+
+
+h3.teatypes { 
+
+    width: 250px;
+    margin: 30px;
+    text-align: left; 
+
+}
+
+ul.teatypes {
+    
+    width: 150px;
+    margin: 30px;
+    background-color: #CCFFFF; 
+    border-width: thin; 
+    border-style: solid dotted;
+    border-color: #003300; 
+    padding: 20px;
+    text-align: left; 
+    text-transform: full-width; 
+    color: #000066; 
+}
