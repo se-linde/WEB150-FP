@@ -1,9 +1,36 @@
 html {
 
+width: 800px;     
 background-color: #79a6d2;      
-
+margin-left: 30px;
+font-family: 'Times New Roman', serif; 
+    
 }
 
+
+h1.storename {
+    
+    width: inherit; 
+    font-family: 'Meddon', serif; 
+    font-size: 40px;
+    background-color: #CCFFFF; 
+    border-width: thin; 
+    border-style: solid dotted;
+    border-color: #003300; 
+    padding: 20px;
+    text-align: left; 
+    color: #000066;     
+     
+}
+
+h1.storename a {
+    
+    display: block;
+    color: #000;
+    text-align: justify; 
+    padding: 14px 16px;
+    text-decoration:none;
+}
 
 h3.teatypes { 
 
@@ -13,7 +40,15 @@ h3.teatypes {
 
 }
 
-ul.teatypes {
+h3.tea {
+    
+    font-size: 20px; 
+    font-family: 'Meddon', serif; 
+    text-align: left;
+    
+}
+
+/* ol {
     
     width: 150px;
     margin: 30px;
@@ -23,6 +58,58 @@ ul.teatypes {
     border-color: #003300; 
     padding: 20px;
     text-align: left; 
-    text-transform: full-width; 
     color: #000066; 
+} */ 
+
+/* Nav Bar horizontal top CSS */ 
+
+ul {
+    width: inherit;
+    font-family: 'Georgia', serif; 
+    font-size: 24px;
+    font-style: oblique;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
+    overflow: hidden; 
+    background-color: #711123; 
+}
+
+li {
+    float: left; 
+}
+
+
+li a {
+    
+    display: block;
+    color: #FFF;
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: overline; 
+}
+
+li a:hover {
+    background-color: #111; 
+}
+
+/* Nav Bar vertical side float CSS */ 
+
+p.sale {
+    
+    font-size: 24px; 
+    float:right; 
+    font-style: italic; 
+    margin-right: 30px; 
+}
+
+
+footer {
+    
+    clear: both;
+    height: 50px;
+    padding: 10px;
+    background-color: #000;
+    text-align: center;
+    color: #fff; 
 }
