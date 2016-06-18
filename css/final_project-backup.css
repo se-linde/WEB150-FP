@@ -73,7 +73,7 @@ ul {
     margin: 0;
     padding: 0; 
     overflow: hidden; 
-
+    background-color: #711123; 
 }
 
 li {
@@ -87,115 +87,11 @@ li a {
     color: #FFF;
     text-align: center; 
     padding: 14px 16px;
-    
-}
-
-
-#nav {
-    
-    display: block
-    color: #FFF;
-    text-align: center; 
-    padding: 14px 16px;
     text-decoration: overline; 
 }
 
 li a:hover {
-    background-color: #711123; 
-}
-
-/* For the Flexslider */ 
-
-
-.flex-caption {
-  width: 96%;
-  padding: 2%;
-  left: 0;
-  bottom: 0;
-  background: rgba(0,0,0,.5);
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
-  font-size: 14px;
-  line-height: 18px;
-}
-
-
-/* ====================================================================================================================
- * BASE STYLES
- * ====================================================================================================================*/
-
-
-.flexslider {
-
-  margin: 0; 
-  padding: 0;
-
-  .slides {
-
-    > li {
-
-      display: none; 
-      -webkit-backface-visibility: hidden;
-
-    }
-
-    img{
-
-      width: 100%;
-      display: block;
-
-    }
-
-
-    //
-    // Clearfix for the .slides element
-    //
-
-    &:after{
-
-      content: "\0020"; 
-      display: block; 
-      clear: both; 
-      visibility: hidden; 
-      line-height: 0; 
-      height: 0;
-
-
-    }
-
-    html[xmlns] &{
-      
-      display: block;
-
-    }
-
-    * html &{
-      
-      height: 1%;
-
-    }
-
-
-    
-     // 
-     // No JavaScript Fallback
-     // If you are not using another script, such as Modernizr, make sure you
-     // include js that eliminates this class on page load
-     // 
-    
-
-    .no-js &{
-
-      > li{
-
-        &:first-child{
-
-          display: block;
-
-        }
-      }
-    }
-  }
+    background-color: #111; 
 }
 
 /* Nav Bar vertical side float CSS */ 

@@ -1,0 +1,89 @@
+<!DOCTYPE HTML> 
+
+<html>
+<head>
+<title>Lord Dwayne's jQuery Shoppe</title>    
+<link rel="stylesheet" href="css/final_project.css">
+<link rel=stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Meddon">
+    
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/swanky-purse/jquery-ui.css">  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>    
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>    
+    
+    <!-- jQuery code --> 
+    
+  <script>
+  $(function() {
+    var availableTags = [
+        "Apple Fritter",
+        "Assam",
+        "Baguette",
+        "Biscotti",
+        "Ceylon",
+        "Cruller",
+        "Darjeeling",
+        "English Breakfast",
+        "Golden Dragon Oolong",
+        "Irish Breakfast",
+        "Jasmine",
+        "Maple Bar",
+        "Mochi",
+        "Old Fashioned",
+        "Palmier", 
+        "Potato Doughnut"
+        ];
+    $( "#teatypes" ).autocomplete({
+      source: availableTags
+    });
+  });
+  </script>
+    
+</head>
+
+<!-- nav bar --> 
+    
+<h1 class="storename"><a href="home.html">Lord Dwayne's jQuery Shoppe</a></h1>    
+    
+<ul>
+    <li><a class = "active" href = "home.html">Home</a></li>
+    <li><a href = "services.html">Services</a></li>
+    <li><a href = "about.html">About</a></li>
+    <li><a href = "contact.html">Contact</a></li>
+</ul>    
+    
+    
+<body>
+<div id = "mainshoppe">
+<h3><p>
+    <br>We focus on only the highest quality of British teas - as beloved by The Queen. </p></h3>
+    
+    
+    
+<div class="ui-widget">
+<p>    
+  <label for="teatypes">Search for your favorites here: </label>
+  <input id="teatypes">
+</p>    
+</div>
+        
+    
+    <!-- Put flexslider here, with all the pretty tea! -->
+    <a href="services.html">
+    <img src="images/morning_tea.jpg" alt="A teapot with our English Breakfast in it."></a>
+       
+    <p>Founded in 2011, we are located in the beautiful, palatial Othello neighborhood, in Seattle, WA, right off the Othello Light Rail stop. </p>
+    
+    <p class="sale">Show us your ORCA pass, and receive $1 off a 4oz bag of loose leaf tea!</p>
+</div>    
+    
+<footer>
+<p>Copyright 2016 S.E. Dwayne Linde</p>    
+</footer>
+    
+
+<script src="js/final_project-jQuerytest1.js"></script>    
+
+    
+
+</body>    
+</html>

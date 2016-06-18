@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Menu - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  
+  <link rel="stylesheet" href="css/final_project.css">
+  <link rel=stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Meddon">   
+    
+<!-- https://jqueryui.com/menu/ -->     
+    
+  <!-- <link rel="stylesheet" href="/resources/demos/style.css"> --> 
+  <script>
+  $(function() {
+    $( "#menu" ).menu({
+      items: "> :not(.ui-widget-header)"
+    });
+  });
+  </script>
+  <style>
+  .ui-menu { width: 200px; }
+  .ui-widget-header { padding: 0.2em; }
+  </style>
+    
+<!-- nav bar --> 
+        
+<h1 class="storename">Lord Dwayne's Tea Shoppe</h1>    
+    
+<ul>
+    <li><a class = "active" href = "home.html">Home</a></li>
+    <li><a href = "services.html">Services</a></li>
+    <li><a href = "about.html">About</a></li>
+    <li><a href = "contact.html">Contact</a></li>
+</ul>    
+    
+</head>
+
+<body> 
+ 
+<ul id="menu">
+  <li class="ui-widget-header">Category 1</li>
+  <li>Option 1</li>
+  <li>Option 2</li>
+  <li>Option 3</li>
+  <li class="ui-widget-header">Category 2</li>    
+  <li>Option 4</li>
+  <li>Option 5</li>
+  <li>Option 6</li>
+</ul>
+ 
+     
+ 
+</body>
+</html>
